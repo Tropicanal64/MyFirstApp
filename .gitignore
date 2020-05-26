@@ -81,3 +81,10 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+.idea/codeStyles/Project.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/misc.xml
+.idea/runConfigurations.xml
+*.json
+*.gradle
+*.properties

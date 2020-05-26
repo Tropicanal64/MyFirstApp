@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Config</string>
+    <string name="web_client_id">eaqChORgGArKCv5yILQn44d6</string>
+    <string name="title_activity_logged_in">Authenticated</string>
+</resources>

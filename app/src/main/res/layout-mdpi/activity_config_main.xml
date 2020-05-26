@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/mainbackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:elevation="14dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="154dp"
+                    android:background="@drawable/logo_pc2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/config800btn"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logoconfig800"
+                    android:elevation="14dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:id="@+id/config1200btn"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logoconfig1200"
+                    android:elevation="14dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:id="@+id/config1600btn"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logoconfig1600"
+                    android:elevation="14dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:id="@+id/config2000btn"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logoconfig2000"
+                    android:elevation="14dp"/>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

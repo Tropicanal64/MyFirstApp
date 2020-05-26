@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".config800"
+    android:background="@color/mainbackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/progress"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <ImageButton
+                    android:id="@+id/photo_proc"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logotemplateprocesseur"
+                    android:elevation="20dp"/>
+
+                <TextView
+                    android:id="@+id/processeur"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textprincipalColor"
+                    android:hint="proc"/>
+
+                <TextView
+                    android:id="@+id/prix_proc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textprincipalColor"
+                    android:gravity="center"
+                    android:hint="prix_proc"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/photo_cm"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logotemplatecm"
+                    android:elevation="20dp"/>
+
+                <TextView
+                    android:id="@+id/cm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="cm"
+                    android:textColor="@color/textprincipalColor"/>
+                <TextView
+                    android:id="@+id/prix_cm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="prix cm"
+                    android:textColor="@color/textprincipalColor"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/photo_ram"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logotemplateram"
+                    android:elevation="20dp"/>
+
+                <TextView
+                    android:id="@+id/ram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="ram"
+                    android:textColor="@color/textprincipalColor"/>
+
+                <TextView
+                    android:id="@+id/prix_ram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="prix ram"
+                    android:textColor="@color/textprincipalColor"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <ImageButton
+                    android:id="@+id/photo_cg"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logotemplatecg"
+                    android:elevation="20dp"/>
+
+                <TextView
+                    android:id="@+id/cg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="cg"
+                    android:textColor="@color/textprincipalColor"/>
+
+                <TextView
+                    android:id="@+id/prix_cg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="prix cg"
+                    android:textColor="@color/textprincipalColor"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:id="@+id/photo_ssd"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logotemplatessd"
+                    android:elevation="20dp" />
+
+                <TextView
+                    android:id="@+id/ssd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="ssd"
+                    android:textColor="@color/textprincipalColor"/>
+
+                <TextView
+                    android:id="@+id/prix_ssd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="prix ssd"
+                    android:textColor="@color/textprincipalColor"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <ImageButton
+                    android:id="@+id/photo_alim"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logotemplatealim"
+                    android:elevation="20dp"/>
+
+                <TextView
+                    android:id="@+id/alim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="alim"
+                    android:textColor="@color/textprincipalColor"/>
+
+                <TextView
+                    android:id="@+id/prix_alim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="prix alim"
+                    android:textColor="@color/textprincipalColor"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+                <ImageButton
+                    android:id="@+id/photo_boitier"
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logotemplateboitier"
+                    android:elevation="20dp"/>
+
+                <TextView
+                    android:id="@+id/boitier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="boitier"
+                    android:textColor="@color/textprincipalColor"/>
+
+                <TextView
+                    android:id="@+id/prix_boitier"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="prix boitier"
+                    android:textColor="@color/textprincipalColor"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:layout_width="300dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logototal"
+                    android:elevation="20dp"/>
+
+
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="total"
+                    android:textColor="@color/textprincipalColor"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

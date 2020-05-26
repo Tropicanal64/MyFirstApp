@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--activitymain-->
+    <dimen name="largeurImage">121dp</dimen>
+    <dimen name="hauteurImage">191dp</dimen>
+    <dimen name="progressBarMarginTop">44dp</dimen>
+    <dimen name="largeurEmail">204dp</dimen>
+    <dimen name="hauteurEmail">25dp</dimen>
+    <dimen name="emailMarginTop">52dp</dimen>
+    <dimen name="largeurPass">251dp</dimen>
+    <dimen name="hauteurPass">25dp</dimen>
+    <dimen name="PassMarginTop">40dp</dimen>
+    <dimen name="passforgetMarginTop">36dp</dimen>
+    <dimen name="checkrememberMarginTop">36dp</dimen>
+    <dimen name="btn_goregisterMarginTop">36dp</dimen>
+</resources>

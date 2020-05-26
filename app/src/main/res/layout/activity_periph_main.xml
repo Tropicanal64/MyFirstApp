@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/mainbackground">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                android:elevation="14dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="307dp"
+                    android:layout_height="132dp"
+                    android:background="@drawable/logo_periphs" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/ecranbtn"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logoecrans" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:id="@+id/clavierbtn"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logoclaviers"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:id="@+id/sourisbtn"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logosouris"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:id="@+id/casquebtn"
+                    android:layout_width="310dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/logocasques"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
